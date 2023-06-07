@@ -1,0 +1,206 @@
+/* Всі елементи - обнулення */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Селектори класу */
+.body {
+    background-color: #f6f6f6;
+    font-family: "Montserrat", sans-serif;
+    padding: 40px;
+}
+
+.container {
+    background-color: #ffffff;
+    display: flex;
+    margin: 0 auto;
+    box-shadow: 5px 9px 20px rgba(56, 54, 54, 0.15);
+    max-width: 1200px;
+}
+
+.list-none {
+    list-style: none;
+}
+
+.side-bar {
+    background-color: #E0EBFE;
+    width: 370px;
+}
+
+.image {
+    display: block;
+    border: 1px solid #161D2A;
+    object-fit: cover;
+    object-position: center 40%;
+}
+
+.about-me-container {
+    padding: 100px 90px;
+}
+
+.contacts-list {
+    list-style: none;
+}
+
+.contacts-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #161D2A;
+    transition: color 0.3s ease;
+}
+
+.email {
+    text-decoration: underline;
+    color: revert;
+}
+
+.hover-effect {
+    transition: color .3s ease-in-out;
+}
+
+.hover-effect:hover {
+    color: #161D2A;
+}
+
+.contacts-link-type {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #161D2A;
+    margin-right: 10px;
+    width: 15px;
+    display: inline-block;
+}
+
+.aside-container {
+    margin: 50px 40px 0;
+}
+
+.aside-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #161D2A;
+}
+
+.aside-item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6D9BF5;
+    margin-left: 15px;
+}
+
+.aside-text {
+    color: #161D2A;
+    transition: color 0.3s ease;
+}
+
+.bio-occupation {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.bio-title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #000000;
+}
+
+.bio-description {
+    margin-top: 28px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.info-container {
+    margin-bottom: 50px;
+}
+
+.projects {
+    margin: 64px 0 50px;
+}
+
+.projects__list {
+    margin-left: 1.5rem;
+}
+
+/* Стилі Нумерації */
+.projects__item::marker {
+    color: #161D2A;
+}
+
+.projects__item {
+    margin: 6px 0;
+    color: #000000;
+}
+
+.projects__link {
+    color: #005FFF;
+    text-decoration: underline;
+}
+
+.projects__skill {
+    font-size: 14px;
+    line-height: 14px;
+    color: #595959;
+}
+
+.subtitle {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+    color: #000000;
+}
+
+.company-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.accent-line {
+    color: #6D9BF5;
+    position: relative;
+}
+
+.working-time {
+    font-size: 12px;
+    line-height: 24px;
+    color: #A8A8A8;
+}
+
+.education__item {
+    margin-bottom: 15px;
+}
+
+.university {
+    color: #6D9BF5;
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 15px 0 10px;
+}
+
+.university-description {
+    color: #161D2A;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
